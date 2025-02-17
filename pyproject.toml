@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uhomepy"
+version = "1.0.0"
+authors = [
+  { name="Jan Karachale", email="jellojank@gmail.com" },
+]
+description = "A python interface for the Uhome OpenAPI"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+]
+license = { text = "MIT" }
+dependencies = [
+  "aiohttp",
+]
+
+[project.urls]
+homepage = "https://github.com/jellojank/uhomepy"
+issues = "https://github.com/jellojank/uhomepy/issues"
