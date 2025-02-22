@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "uhomepy"
-version = "1.0.0"
+version = "0.9.0"
 authors = [
   { name="Jan Karachale", email="jellojank@gmail.com" },
 ]
